@@ -1,0 +1,38 @@
+/* Container for worker dashboard */
+.worker-dashboard-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 150px;
+}
+
+/* Base styles for cards */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.7s ease, box-shadow 0.3s;
+  margin: 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific card styles */
+.request-card {
+  background-color: #ccbc62;
+}
+
+.view-request-card {
+  background-color: #87cefa;
+}
+
+.help-card {
+  background-color: #90ee90;
+}
